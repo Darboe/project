@@ -50,15 +50,32 @@
 }
 .contact a{
     display: block;
-   	margin: 9%;
-    color: #999999;
-  	padding-left: 3em;
+   	color: #999999;
+    margin: 9%;
+  	padding-left: 2em;
     font-size: 18px;
     text-decoration: none;
     text-transform: uppercase;
 
 
 }
+.menu-icon{
+	margin-left: 5em;
+	margin-top: 4em;
+}
+
+.menu-icon span{
+	width: 30%;
+	height: 4px;
+	display: block;
+	background: #000;
+	margin: 6px 0;
+
+}
+.menu-icon:hower{
+	cursor: pointer;
+}
+
 /*
 //end This logo bage
 */
@@ -90,6 +107,8 @@
 .top-nav a:hover{
 	background: #779cd8;
 }
+
+
 
 /* end Header */
 
