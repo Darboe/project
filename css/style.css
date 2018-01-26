@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+*{
+	font-family: Roboto, sans-serif;
+	box-sizing: border-box;
+}
+
+
+.container{
+
+}
+.main-header{
+	background: lightgrey;
+
+}
+.logo{
+	display: flex;
+	height: 10.5em;
+	color: #333333;
+	background: #ffffff;
+
+	
+   // background: red;
+
+
+}
+.logo-bage{
+   flex:2;
+   width: 70%;
+   display: flex;
+   min-width: 30%;
+}
+.logo-bage img{
+
+	 width: 100px;
+	 margin: 7%;
+	 flex:1 1 0;
+	 border: 1px solid white;
+	 padding: 5px;
+}
+.logo-bage h2{
+	display: inline-block;
+	margin-left:6px;
+}
+.contact{
+  flex:1;
+  text-align: center;
+
+  
+}
+.contact a{
+    display: block;
+   	margin: 9%;
+    color: #999999;
+  	padding-left: 3em;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+}
+/*
+//end This logo bage
+*/
+
+
+.top-nav{
+	background: #1c65db;
+	margin-top: 0;
+}
+.top-nav a{
+	color: #ffffff;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+
+
+}
+.top-nav ul{
+	list-style-type: none;
+	margin: 0;
+	margin-left: 0;
+
+	
+}
+.top-nav li{
+ 	margin-left:0;
+}
+.top-nav a:hover{
+	background: #779cd8;
+}
+
+/* end Header */
+
+
+.slide{
+   height: 410px;
+	background: url("../img/slide.jpg") ,no-repeat ,fixed; 
+	background-size: cover ;
+	background-position: 100% 100%;
+	
+
+}
