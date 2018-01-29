@@ -6,11 +6,21 @@
 	<title>Home | University Of The Gambia</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 
        <div class="container">
-       	<!-- This the header of the page -->
+       	<!-- This the header of the page
+
+
+			<i class="fa fa-bars" aria-hidden="true"></i>
+
+
+
+
+       	 -->
        <header class="main-header">
        	  <div class="logo">
        	  	<div class="logo-bage">
@@ -19,19 +29,21 @@
        	  	</div>
        	  	<div class="contact">
        	  		<a href="#">Contact</a>
-       	  		<!-- BUtton here-->
-       	  		<div class="menu-icon">
-       	  			<span></span>
-       	  			<span></span>
-       	  			<span></span>
+       	  		<!-- BUtton here
+       	  		
+       	  		<i class="fa fa-bars menu-bar" aria-hidden="true" onclick="showMenu('menu')"></i>
+
        	  		</div>
+                            -->
        	  		<!--
        	  		<button class="btn-menu" type="button">Menu</button>
        	  	-->
+                      <button type="button" class="btn-menu" onclick="showMenu();">Menu</button>
+
        	  	</div>
        	  </div>
        	  <nav class="top-nav">
-       	  	<ul class="menu">
+       	  	<ul class="menu" id="hi">
        	  		<li><a href="#">Home</a></li>
        	  		<li><a href="#">About UTG</a></li>
        	  		<li><a href="#">Academics</a></li>
@@ -56,5 +68,32 @@
 
        </div>
 
+
+
+
+        
+
+          <script type="text/javascript">
+
+                 function showMenu(){
+                     //var menu = document.getElementBy('hi');
+
+                     // menu.style.background="red";
+
+                     document.getElementById('hi').style.background='red';
+
+                     /*
+                     if (menu.style.display=='none') {
+                            menu.style.display='block';
+                     }else{
+
+                            menu.style.display='none';
+                     }
+                 }
+
+                 */
+
+
+          </script>
 </body>
 </html>

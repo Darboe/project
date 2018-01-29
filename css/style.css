@@ -59,22 +59,13 @@
 
 
 }
-.menu-icon{
-	margin-left: 5em;
-	margin-top: 4em;
-}
+  .btn-menu{
+  	margin-top: 3em;
+  	margin-left: 1.3em;
+  	
+  }
 
-.menu-icon span{
-	width: 30%;
-	height: 4px;
-	display: block;
-	background: #000;
-	margin: 6px 0;
 
-}
-.menu-icon:hower{
-	cursor: pointer;
-}
 
 /*
 //end This logo bage
@@ -121,3 +112,51 @@
 	
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 750px){
+
+	.btn-menu{
+		display: none;
+	}
+
+
+	.logo{
+		
+	}
+.logo-bage{
+	
+	margin-left: 8em;
+	padding-left: 5%;
+}
+.logo-bage img{}
+.logo-bage h2{}
+.contact a{
+	padding-left: 60%;
+}
+
+
+.top-nav .menu{
+	display: flex;
+	justify-content: center;
+
+}
+.top-nav li{
+	 margin-left: 3em;
+	text-align: center;
+}
+
+
+}
+
+
