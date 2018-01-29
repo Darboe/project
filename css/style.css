@@ -15,7 +15,7 @@
 }
 .logo{
 	display: flex;
-	height: 10.5em;
+	height: 10em;
 	color: #333333;
 	background: #ffffff;
 
@@ -45,24 +45,31 @@
 }
 .contact{
   flex:1;
-  text-align: center;
+  //text-align: center;
+  //background-color: red;
 
   
 }
-.contact a{
+.contact a {
     display: block;
    	color: #999999;
     margin: 9%;
-  	padding-left: 2em;
+  	padding: .2em;
+ //	background-color: green;
     font-size: 15px;
     text-decoration: none;
     text-transform: uppercase;
 
 
 }
-  .btn-menu{
-  	margin-top: 3em;
-  	margin-left: 1.3em;
+
+.contact a:hover{
+	color: #000;
+}
+ .btn-menu {
+  	margin-top: 1em;
+  	margin-left: 1em;
+  	text-align: center;
   	
   }
 
@@ -100,8 +107,9 @@
  	margin-left:0;
 }
 .top-nav a:hover{
-	background: #779cd8;
+	//background: #779cd8;
 }
+
 
 
 
@@ -147,7 +155,8 @@
 }
 .contact a{
 	font-size: 16px;
-	padding-left: 50%;
+
+	padding-left: 10%;
 }
 .top-nav{
 	height: 2.5em;
