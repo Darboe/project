@@ -1,5 +1,5 @@
 
-
+/*
   function test () {
     var hideMenu  =document.getElementById('hide');
      var x =hideMenu.style.display=='block';
@@ -10,7 +10,7 @@
             hideMenu.style.display='block';
         }
 }
-
+*/
 
 
 
