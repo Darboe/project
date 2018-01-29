@@ -128,35 +128,45 @@
 
 
 
-@media only screen and (min-width: 750px){
+@media only screen and (min-width: 760px){
 
-	.btn-menu{
+.btn-menu{
 		display: none;
 	}
 
 
-	.logo{
-		
-	}
+
 .logo-bage{
-	
-	margin-left: 8em;
-	padding-left: 5%;
+	padding: 2%;
 }
-.logo-bage img{}
-.logo-bage h2{}
+.logo-bage img{
+	width: 6em;
+}
+.logo-bage h2{
+	margin-left: 1em;
+}
 .contact a{
-	padding-left: 60%;
+	font-size: 16px;
+	padding-left: 50%;
+}
+.top-nav{
+	height: 2.5em;
+}
+.top-nav li:hover{
+  border-bottom: 3px solid red;
+}
+.top-nav li {
+font-size: 15px;
 }
 
 
 .top-nav .menu{
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 
 }
 .top-nav li{
-	 margin-left: 3em;
+	 flex: 1 1 0;
 	text-align: center;
 }
 
