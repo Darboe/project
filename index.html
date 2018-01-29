@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+       <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 
@@ -38,16 +39,16 @@
        	  		<!--
        	  		<button class="btn-menu" type="button">Menu</button>
        	  	-->
-                      <button type="button" class="btn-menu" onclick="showMenu();">Menu</button>
+                      <button type="button" class="btn-menu"  onclick="test()">Menu</button>
 
        	  	</div>
        	  </div>
-       	  <nav class="top-nav">
-       	  	<ul class="menu" id="hi">
+       	  <nav id="hide" class="top-nav" >
+       	  	<ul  class="menu">
        	  		<li><a href="#">Home</a></li>
        	  		<li><a href="#">About UTG</a></li>
        	  		<li><a href="#">Academics</a></li>
-       	  		<li><a href="#">Schools & Facultilies</a></li>
+       	  		<li><a href="#">Schools &amp; Facultilies</a></li>
        	  		<li><a href="#">Admission</a></li>
        	  		<li><a href="#">Libraries</a></li>
        	  		
@@ -69,31 +70,5 @@
        </div>
 
 
-
-
-        
-
-          <script type="text/javascript">
-
-                 function showMenu(){
-                     //var menu = document.getElementBy('hi');
-
-                     // menu.style.background="red";
-
-                     document.getElementById('hi').style.background='red';
-
-                     /*
-                     if (menu.style.display=='none') {
-                            menu.style.display='block';
-                     }else{
-
-                            menu.style.display='none';
-                     }
-                 }
-
-                 */
-
-
-          </script>
 </body>
 </html>
