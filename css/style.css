@@ -14,48 +14,57 @@
 
 }
 .logo{
-	display: flex;
-	height: 10em;
+	display: grid;
+	height: 8em;
 	color: #333333;
 	background: #ffffff;
+    grid-template-columns: auto auto;
 
 	
-   // background: red;
+   // background: green;
 
 
 }
+.search{
+	display: none;
+}
 .logo-bage{
-   flex:2;
-   width: 70%;
+
+   width: 50%;
    display: flex;
    min-width: 30%;
 }
 .logo-bage img{
+	 width: 9.2em;
+	margin-left:  7%;
+	margin-top: 5%;
+	
+	padding: 2px;
+}
 
-	 width: 5em;
-	 margin: 7%;
-	 flex:1 1 0;
-	 border: 1px solid white;
-	 padding: 5px;
-}
-.logo-bage h2{
-	font-size: 1.5em;
-	display: inline-block;
-	margin-left:6px;
-}
 .contact{
-  flex:1;
-  //text-align: center;
-  //background-color: red;
+ 
 
   
+}
+.contact-link{
+   height: 4em;
+    text-align: center;
+
+	//background-color: green;
+}
+.btn{
+  //background-color: yellow;
+  height: 4em;
+  text-align: center;
 }
 .contact a {
     display: block;
    	color: #999999;
-    margin: 9%;
-  	padding: .2em;
- //	background-color: green;
+   padding: 3%;
+    padding-left: 
+  	
+     
     font-size: 15px;
     text-decoration: none;
     text-transform: uppercase;
@@ -67,9 +76,7 @@
 	color: #000;
 }
  .btn-menu {
-  	margin-top: 1em;
-  	margin-left: 1em;
-  	text-align: center;
+  	margin-top: 1.6em;
   	
   }
 
@@ -148,15 +155,34 @@
 	padding: 2%;
 }
 .logo-bage img{
-	width: 6em;
+	width: 10em;
+	margin-left: 2em;
 }
-.logo-bage h2{
-	margin-left: 1em;
+.search{
+	display: block;
 }
+
+
+.btn{
+	height: 0;
+ 
+}
+.search{
+   
+   height: 4em;
+   text-align: center;
+
+}
+.search input{
+	margin-top: 1em;
+	padding: 1px;
+}
+
 .contact a{
+	display: inline-block;
 	font-size: 16px;
 
-	padding-left: 10%;
+	//padding-left: 10%;
 }
 .top-nav{
 	height: 2.5em;
