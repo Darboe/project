@@ -1,13 +1,18 @@
 
+    
 
 
 
-$(document).ready(function(){
-  $('.your-class').slick({
-    setting-name: setting-value
-  });
-});
 
+/*
+
+    $('.hide').click(function(){
+        $('.menu-main-menu-container').slideToggle('slow');
+    });
+
+
+
+ */
 
 
 

@@ -55,14 +55,22 @@
 	//background-color: green;
 }
 .btn{
-  //background-color: yellow;
-  height: 4em;
-  text-align: center;
+	margin-top: .3em;
+ 
+  font-size: 2em;
+  text-align: right;
+  padding-right: .3em;
+
+ 
+  
+}
+
+.contact a ,.fa-bars{
+		color: #999999;
 }
 .contact a {
     display: block;
-   	color: #999999;
-  	 padding: 3%;
+   	padding: 3%;
     font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
@@ -71,13 +79,11 @@
 
 }
 
-.contact a:hover{
+.contact a:hover,.fa-bars:hover{
 	color: #000;
+
 }
- .btn-menu {
-  	margin-top: 1.6em;
-  	
-  }
+ 
 .top-nav li{
 	list-style-type: none;
 	padding: .5em;
@@ -98,7 +104,7 @@
 
 
 .top-nav{
-	background: #1c65db;
+	
 	margin-top: 0;
 	display: none;
 	transition-delay: 0.5s;
@@ -112,15 +118,11 @@
 
 
 }
-.top-nav ul{
-	list-style-type: none;
-	margin: 0;
-	margin-left: 0;
 
-	
-}
 .top-nav li{
+	background: #1c65db;
  	margin-left:0;
+ 	padding: .5em;
 }
 .top-nav a:hover{
 	background: #779cd8;
@@ -132,18 +134,17 @@
 
 /* end Header */
 
-
-.slide{
-   height: 410px;
-	background: url("../img/slide.jpg") ,no-repeat ,fixed; 
-	background-size: cover ;
-	background-position: 100% 100%;
-	
+.slider {
+	width: 100%;
+	background-color: red;
 
 }
 
+ .slider img{
+   max-width: 100%;
+  
 
-
+ }
 
 
 
@@ -158,9 +159,13 @@
 		margin: 0;
 	}
 
-.btn-menu{
+.btn{
 		display: none;
 	}
+
+.top-nav{
+	display: block;
+}
 
 
 
@@ -198,25 +203,23 @@
 	//padding-left: 10%;
 }
 .top-nav{
+	
 	height: 2.5em;
+	display: grid;
+	grid-template-columns: repeat(6,1fr);
 }
 .top-nav li:hover{
   border-bottom: 3px solid red;
 }
 .top-nav li {
+	padding: 0px;
 font-size: 15px;
+text-align: center;
 }
 
 
-.top-nav .menu{
-	display: flex;
-	justify-content: flex-start;
 
-}
-.top-nav li{
-	 flex: 1 1 0;
-	text-align: center;
-}
+
 
 
 }
