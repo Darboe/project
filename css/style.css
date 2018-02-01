@@ -7,7 +7,7 @@
 
 
 .container{
-
+  margin: 3px;
 }
 .main-header{
 	background: lightgrey;
@@ -50,6 +50,7 @@
 .contact-link{
    height: 4em;
     text-align: center;
+   padding-top: 7px;
 
 	//background-color: green;
 }
@@ -61,13 +62,11 @@
 .contact a {
     display: block;
    	color: #999999;
-   padding: 3%;
-    padding-left: 
-  	
-     
-    font-size: 15px;
+  	 padding: 3%;
+    font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
+
 
 
 }
@@ -79,20 +78,30 @@
   	margin-top: 1.6em;
   	
   }
-
+.top-nav li{
+	list-style-type: none;
+	padding: .5em;
+}
 
 
 /*
 //end This logo bage
 */
+
+
+
+
+
 .menu{
-	display: block;
+	//display: block;
 }
 
 
 .top-nav{
 	background: #1c65db;
 	margin-top: 0;
+	display: none;
+	transition-delay: 0.5s;
 }
 .top-nav a{
 	color: #ffffff;
@@ -114,8 +123,9 @@
  	margin-left:0;
 }
 .top-nav a:hover{
-	//background: #779cd8;
+	background: #779cd8;
 }
+
 
 
 
@@ -144,6 +154,9 @@
 
 
 @media only screen and (min-width: 760px){
+	.container{
+		margin: 0;
+	}
 
 .btn-menu{
 		display: none;

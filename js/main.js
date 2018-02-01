@@ -1,5 +1,20 @@
 
-/*
+
+
+
+$(document).ready(function(){
+  $('.your-class').slick({
+    setting-name: setting-value
+  });
+});
+
+
+
+
+
+
+
+
   function test () {
     var hideMenu  =document.getElementById('hide');
      var x =hideMenu.style.display=='block';
@@ -10,7 +25,7 @@
             hideMenu.style.display='block';
         }
 }
-*/
+
 
 
 
