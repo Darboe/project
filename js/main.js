@@ -52,19 +52,20 @@
  */
 
 
+
 $("#slide").sliderResponsive({
 
    
 
     // transition delay
 
-    slidePause: 10000,
+    slidePause: 5000,
 
    
 
     // animation speed
 
-    fadeSpeed: 4000,
+    fadeSpeed: 800,
 
    
 
@@ -99,6 +100,14 @@ $("#slide").sliderResponsive({
      
 
   });
+
+
+ jQuery(document).ready(function($){
+        $( ".click" ).click(function() {
+         $( "#hide" ).slideToggle(500);
+      });
+
+ });
 
 
 

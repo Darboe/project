@@ -139,6 +139,11 @@
 
 .slider {
 	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-size: cover;
 	
 
 }
@@ -181,8 +186,9 @@
 	padding: 2%;
 }
 .logo-bage img{
-	width: 10em;
+	width: 11em;
 	margin-left: 3em;
+	margin-bottom: .7em;
 }
 .search{
 	display: block;
