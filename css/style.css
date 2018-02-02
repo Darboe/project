@@ -83,6 +83,9 @@
 	color: #000;
 
 }
+.main_nav{
+   	background: #1c65db;
+}
  
 .top-nav li{
 	list-style-type: none;
@@ -120,7 +123,7 @@
 }
 
 .top-nav li{
-	background: #1c65db;
+
  	margin-left:0;
  	padding: .5em;
 }
@@ -136,7 +139,7 @@
 
 .slider {
 	width: 100%;
-	background-color: red;
+	
 
 }
 
@@ -164,8 +167,13 @@
 	}
 
 .top-nav{
+	
 	display: block;
+	width: 80%;
+	margin-right: 15%;
+	margin-left: 15%;
 }
+
 
 
 
@@ -174,7 +182,7 @@
 }
 .logo-bage img{
 	width: 10em;
-	margin-left: 2em;
+	margin-left: 3em;
 }
 .search{
 	display: block;
